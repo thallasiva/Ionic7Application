@@ -1,0 +1,26 @@
+<ion-content [fullscreen]="true">
+
+
+  <div id="container" class="ion-padding">
+    <ion-item>
+      <ion-input type="text" label="Email/Username" labelPlacement="floating"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-input type="password" label="Password" labelPlacement="floating"></ion-input>
+    </ion-item>
+
+    <ion-button shape="round" expand="block" class="ion-margin-top ion-margin-start ion-text-capitalize"
+      type="submit">Login</ion-button>
+    <ion-row class=" ion-margin-top">
+      <div class="ion-text-start">
+        Don’t have an account?<ion-text color="primary" routerLink="/register"> Register now.</ion-text>
+      </div>
+    </ion-row>
+    <ion-row class=" ion-margin-top">
+      <div class="ion-text-start">
+        <ion-text color="primary" routerLink="/forgot-password"> Forgot your password.</ion-text>
+      </div>
+    </ion-row>
+  </div>
+</ion-content>
